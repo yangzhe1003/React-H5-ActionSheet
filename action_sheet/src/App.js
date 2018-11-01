@@ -28,9 +28,6 @@ class App extends Component {
 					<p>自定义内容</p>
 					<p>自定义内容</p>
 					<p>自定义内容</p>
-					<p>自定义内容</p>
-					<p>自定义内容</p>
-					<p>自定义内容</p>
                 </ActionSheet>
             </div>
         );

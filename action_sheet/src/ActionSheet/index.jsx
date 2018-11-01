@@ -38,7 +38,7 @@ class ActionSheet extends React.Component {
                 className={_visite ? "animated-fade-in" : "animated-fade-out"}
                 onClick={this.close.bind(this)}
             >
-                <Mid
+                <Container
                     className={
                         _visite
                             ? "animated-slide-in-up"
@@ -52,7 +52,7 @@ class ActionSheet extends React.Component {
                         {this.props.title ? this.props.title : "标题"}
                     </Title>
                     {this.props.children}
-                </Mid>
+                </Container>
             </View>
         );
     }
@@ -66,6 +66,7 @@ const View = styled.div`
     background-color: RGBA(0, 0, 0, 0.7);
     position: fixed;
     top: 0;
+    left: 0;
     z-index: 200;
     display: none;
     ${props =>
@@ -78,7 +79,7 @@ const View = styled.div`
     
 `;
 
-const Mid = styled.div`
+const Container = styled.div`
     width: 100%;
     min-height: 5rem;
     background-color: #ffffff;
@@ -87,7 +88,8 @@ const Mid = styled.div`
 const Title = styled.div`
     width: 100%;
     height: 2.1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
     color: #555555;
     text-align: center;
     line-height: 2.1rem;
