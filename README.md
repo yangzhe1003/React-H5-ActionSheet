@@ -15,7 +15,7 @@
 
 ### 二、项目预览
 
-> 本Demo使用了[creact-react-app](https://github.com/facebook/create-react-app)来创建工程。
+> 本Demo使用了[creact-react-app](https://github.com/facebook/create-react-app)来创建工程，开发中使用了[styled-components](https://www.styled-components.com/)写样式。
 
 1. 克隆项目到本地
 
